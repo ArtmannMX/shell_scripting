@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Script de practica para colorear las fuentes y agregar 
+echo 
+echo
+echo -e "\e[1;31m---------------------"
+echo -e " \e[1;30mF\e[1;31mU\e[1;32mE\e[1;33mN\e[1;34mT\e[1;35mE\e[1;36mS \e[1;30mD\e[1;31mE \e[1;32mC\e[1;33mO\e[1;34mL\e[1;35mO\e[1;36mR\e[1;37mE\e[1;30mS"
+echo -e "\e[1;31m---------------------"
+echo 
+echo -e "\e[1;30mEsta linea es negra"
+echo -e "\e[1;31mEsta linea es roja"
+echo -e "\e[1;32mEsta linea es verde"
+echo -e "\e[1;33mEsta linea es amarilla"
+echo -e "\e[1;34mEsta linea es azul"
+echo -e "\e[1;35mEsta linea es morada"
+echo -e "\e[1;36mEsta linea es cyan"
+echo -e "\e[1;37mEsta linea es blanca"
+echo
+echo
+echo -e "\e[1;31m-------------------"
+echo -e " \e[1;37m\e[1;40mF\e[1;41mO\e[1;42mN\e[1;43mD\e[1;44mO\e[1;45mS\e[0m \e[1;46mD\e[1;47mE\e[0m \e[1;40mC\e[1;41mO\e[1;42mL\e[1;43mO\e[1;44mR\e[1;45mE\e[1;46mS\e[0m"
+echo -e "\e[1;31m-------------------"
+echo
+echo -e "\e[1;40m\e[1;37mEste fondo es negro\e[0m"
+echo -e "\e[1;41mEste fondo es rojo\e[0m"
+echo -e "\e[1;42mEste fondo es verde\e[0m"
+echo -e "\e[1;43mEste fondo es amarillo\e[0m"
+echo -e "\e[1;44mEste fondo es azul\e[0m"
+echo -e "\e[1;45mEste fondo es morado\e[0m"
+echo -e "\e[1;46mEste fondo es cyan\e[0m"
+echo -e "\e[1;47m\e[1;30mEste fondo es blanco\e[0m"
+echo 
+echo

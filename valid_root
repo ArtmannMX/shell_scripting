@@ -1,0 +1,8 @@
+#!/bin/bash
+# Validando el usuario root en un script para notificar en el momento de ejecución para solicitar privilegios elevados.
+
+if [ $UID -ne 0 ]; then
+	echo Me quieres ver la cara de estupida?? No eres Usuario Root. Regresa cuando lo seas.
+else
+	echo Perfecto eres Usuario Root. Adelante amo, ejecuta lo que quieras.
+fi

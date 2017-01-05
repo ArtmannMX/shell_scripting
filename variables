@@ -1,1 +1,6 @@
 #!/bin/bash
+# Nombre del fichero: variables
+# Práctica sobre variables
+fruta=manzana
+cuenta=5
+echo "Tenemos $cuenta ${fruta}(s)"

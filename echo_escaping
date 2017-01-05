@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Caracteres de escape en echo
+
+# Estas sintaxis dan como resultado la misma salida
+echo "Estas sintaxis dan como resultado la misma salida:"
+echo "~$ echo Que onda shell!"
+echo Que onda shell!
+echo "echo 'Que onda shell!'"
+echo 'Que onda shell!'
+echo "Que onda shell!"
+
+# Para prescindir del salto de linea se utiliza el flag u opción -n
+
+echo -n Que onda shell!

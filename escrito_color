@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Escribire algo con formato de color en la fuente y fondo para
+# reforzar el tema
+
+printf "\e[1;31m\e[1;44mQue onda mundo!\e[0m\n"
+printf "\n"
+printf "\e[1;34mEste es un escrito para \e[1;33mreforzar \e[1;34mlos conocimientos adquiridos sobre la \e[1;33msalida de texto a color\e[1;31m(color strings output)\e[0m\n"
+

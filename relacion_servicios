@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Este script es una práctica para crear cadenas(strings) mediante formatos de sustitución
+# con los caracteres:
+#
+#                %s, %c, %d y %f
+printf "\n"
+printf "\e[1;35m%70s\n" "----------------------- "
+printf "\e[1;35m%70s\n" "|Relación de Servicios|"
+printf "\e[1;35m%70s\n" "----------------------- "
+printf "\n"
+printf "\n"
+printf "\e[1;32m%-20s %10s %10s\e[0m\n" "------------------------------------------"
+printf "\e[1;32m%-20s %10s %10s\e[0m\n" "|Quincena:" "01-15" "Noviembre|"
+printf "\e[1;32m%-20s %10s %10s\e[0m\n" "------------------------------------------"
+printf "\n"
+printf "\e[1;41m%-6s %-25s %-20s %-20s %-8s %-8s %-10s %-10s\e[0m\n" Folio Usuario Equipo Servicio Costo Comisión Entrada Salida
+echo '--------------------------------------------------------------------------------------------------------------------------'
+printf "\e[1;33m%-6s %-25s %-25s %-25s %-8s %-8s %-10s %-10s\e[0m\n" 1891 'Sergio Acedes' 'Hp Laptop Mini' 'Falta Tecla' 100 30 14/10/16 07/11/16
+printf "\e[1;33m%-6s %-25s %-25s %-25s %-8s %-8s %-10s %-10s\e[0m\n" 6299 'Martín Sanchez' ' Canon MG3610' ' Revisión' '  100' '  30' '  29/09/16' '  07/11/16'
+printf "\e[1;33m%-6s %-25s %-25s %-25s %-8s %-8s %-10s %-10s\e[0m\n" 6353 "Automation Warehouse" "Epson L555" "Limpieza y Reset" 400 120 01/11/16 07/11/16
+printf "\e[1;33m%-6s %-25s %-25s %-25s %-8s %-8s %-10s %-10s\e[0m\n" 6355 'Brick Arquitectos' 'PC Armada' 'Formateo S/R' 350 105 01/11/16 03/11/16 
+printf "\e[1;33m%-6s %-25s %-25s %-25s %-8s %-8s %-10s %-10s\e[0m\n" 6358 'Smarth Molds' 'Acer Aspire E5-573' 'Formateo S/R AC/SW' 600 180 04/11/16 07/11/16
+printf "\e[1;33m%-6s %-25s %-25s %-25s %-8s %-8s %-10s %-10s\e[0m\n" 6359 'Jorge Rodriguez' 'Toshiba Satellite c645' 'Formateo C/R limpieza' 600 180 04/11/16 07/11/16
+printf "\e[1;33m%-6s %-25s %-25s %-25s %-8s %-8s %-10s %-10s\e[0m\n" 6360 'Alejandra Gonzalez' 'HP Probook 4440s' 'No da imagen' 300 90 07/11/16 07/11/16
+printf "\e[1;33m%-6s %-25s %-25s %-25s %-8s %-8s %-10s %-10s\e[0m\n" 6357 'Manuel Hernandez' 'PC Armada' 'Formateo C/R' 450 135 08/11/16 08/11/16
+printf "\e[1;33m%-6s %-25s %-25s %-25s %-8s %-8s %-10s \e[1;36m%-10s\e[0m\n" 1260 'Hotel Florencia' 'AP TP-Link' 'Configuración' ' 1500' ' 450' ' 09/11/16' ' Pendiente'
