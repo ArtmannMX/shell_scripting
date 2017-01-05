@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Este script copia un archivo, agregando la fecha y la hora
+# al final del nombre del archivo
+
+date_formatted=$(date +%d_%m_%y-%H.%M.%S)
+
+cp -iv $1 $2.$date_formatted
+
