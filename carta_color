@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Este script muestra una carta con fuente y fondo de colores
+
+echo -e "\e[1;47m\e[1;30mEste color es negro sobre un fondo blanco\e[0m"
+echo -e "\e[1;31mEste color es rojo"
+echo -e "\e[1;32mEste color es verde"
+
+
