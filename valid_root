@@ -2,7 +2,7 @@
 # Validando el usuario root en un script para notificar en el momento de ejecución para solicitar privilegios elevados.
 
 if [ $UID -ne 0 ]; then
-	echo Me quieres ver la cara de estupida?? No eres Usuario Root. Regresa cuando lo seas.
+	echo -e "No no no, pinshi beaner, pinshi caca you don/'t be a root user, pinshis beaners se creen root users, pinshis inferiores"
 else
-	echo Perfecto eres Usuario Root. Adelante amo, ejecuta lo que quieras.
+	echo -e "Perfecto eres Usuario Root. Adelante amo, ejecuta lo que quieras."
 fi
