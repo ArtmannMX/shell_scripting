@@ -1,0 +1,53 @@
+#!/bin/bash
+# Práctica sobre tema de variables
+
+# En esta condicional se verifica que el usuario tenga privilegios elevados.
+if [ $UID -ne 0 ]; then
+	echo -e "\e[1;31mNo eres Root User. Conviertete en uno y vuelve a intenatarlo\e[00m"
+else
+	echo
+	echo -e "\e[1;32mPerfecto! Eres Root User. Adelante! Puedes ejecutar lo que quieras\e[00m"
+	echo
+	echo ----------
+	echo -e "\e[1;33mEste comando nos da la salida del id de proceso del programa bash o de cualquier otro que digitemos\e[00m"
+	echo -e "\e[1;35mroot@prompt~# \e[1;34mpgrep bash\e[00m"
+	pgrep bash
+	echo ----------
+	echo
+	echo ----------
+	echo -e "\e[1;33mEl comando cat concatena el contenido del fichero environ, ubicado en el directorio del PID de bash, en el sistema de archivos /proc\e[00m"
+	echo -e "\e[1;35mroot@prompt~# \e[1;34mcat /proc/3220/eviron\e[00m"
+	cat /proc/3220/environ
+	echo ----------
+	echo
+	echo ---------
+	echo -e "\e[1;33mPara evitar que se vea amontonada la información contenida en este fichero, utilizaremos un tubería (pipe) para dirigir la salida del comando hacia otro comando que ordenará el contenido\e[00m"
+	echo -e "\e[1;35mroot@prompt~# \e[1;34mcat /proc/3220/environ | tr '\\\0' '\\\n'\e[00m"
+	cat /proc/3220/environ | tr '\0' '\n'
+	echo ---------
+	echo
+	echo ---------
+	echo -e "\e[1;33mDeclaramos una variable"
+	echo -e "\e[1;35mroot@prompt~# \e[1;34mlinux=ubuntu\e[00m"
+	linux=ubuntu
+	echo --------
+	echo
+	echo --------
+	echo -e "\e[1;33mLlamamos a esa variable imprimiendo su valor en pantalla"
+	echo -e "\e[1;35mroot@prompt~# \e[1;34mecho $linux\e[00m"
+	echo $linux
+	echo --------
+	echo
+	echo --------
+	echo -e "\e[1;33mConseguimos el tamaño de la cadena, es decir la cantidad de caracteres qeu contiene la varible"
+	echo -e "\e[1;35mroot@prompt~# \e[1;34mecho ${#linux}\e[00m"
+	echo ${#linux}
+	echo --------
+	echo
+	echo --------
+	echo -e "\e[1;33mIdentificar la shell actual"
+	echo -e "\e[1;35mroot@prompt~# \e[1;35mecho $SHELL\e[00m"
+	echo $SHELL
+	echo --------
+	echo
+fi
