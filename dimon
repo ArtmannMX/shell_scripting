@@ -1,0 +1,5 @@
+#!/bin/bash
+
+### Habilitar la reducción de brillo del sistema
+
+xset +dpms && xset s on

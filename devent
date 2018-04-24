@@ -1,0 +1,5 @@
+#!/bin/bash
+
+## Script para mostrar los dispositivos de entrada y sus eventos (/dev/input/eventXX)##
+
+sudo cat /proc/bus/input/devices | grep -i -E 'name|handler'

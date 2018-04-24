@@ -1,0 +1,6 @@
+#!/bin/bash 
+
+### Deshabilitar la reducción de brillo del sistema cuando
+### se esta viendo un video o pelicula en navegador
+
+xset -dpms && xset s off
