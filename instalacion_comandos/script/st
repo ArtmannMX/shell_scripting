@@ -1,0 +1,7 @@
+#!/bin/bash
+# nombre: st
+# descripcion: ejecuta sublime text desde la terminal tomando un archivo
+# fecha: 27/04/2018
+# autor: ArtadminMX
+
+/opt/sublime_text/sublime_text $0

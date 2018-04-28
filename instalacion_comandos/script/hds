@@ -1,0 +1,12 @@
+#!/bin/bash
+# nombre: hds 
+# descripcion: comando para ejecutar HDSentinel
+# fecha: 27/04/2018
+# autor: ArtadminMX
+
+if [ $UID -ne 0 ]; then
+	echo -e "Necesitar permisos de superusuario apra ejecutar este comando"
+else 
+	echo -e "Ejecutando programa"
+	HDSentinel
+fi
